@@ -206,7 +206,6 @@ function App() {
                   eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
                   autem sapiente.
                 </p>
-                
                 <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
                  <a href="https://www.rockstargames.com/gta-v"> Download Now</a>
                 </button>
