@@ -8,6 +8,7 @@ function App() {
   useGSAP(() => {
     const tl = gsap.timeline();
 
+    
     tl.to(".vi-mask-group", {
       rotate: 10,
       duration: 2,
