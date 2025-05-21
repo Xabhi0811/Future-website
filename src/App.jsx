@@ -107,7 +107,7 @@ function App() {
                   fill="white"
                   dominantBaseline="middle"
                   fontFamily="Arial Black"
-                >
+                   >
                   VI
                 </text>
               </g>
