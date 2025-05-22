@@ -7,6 +7,7 @@ function App() {
   let [showContent, setShowContent] = useState(false);
   useGSAP(() => {
     const tl = gsap.timeline();
+
     
     tl.to(".vi-mask-group", {
       rotate: 10,
