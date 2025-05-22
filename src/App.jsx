@@ -76,7 +76,6 @@ function App() {
     });
 
     const main = document.querySelector(".main");
-
     main?.addEventListener("mousemove", function (e) {
       const xMove = (e.clientX / window.innerWidth - 0.5) * 40;
       gsap.to(".main .text", {
