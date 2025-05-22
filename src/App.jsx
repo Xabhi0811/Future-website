@@ -32,6 +32,7 @@ function App() {
   useGSAP(() => {
     if (!showContent) return;
 
+    
     gsap.to(".main", {
       scale: 1,
       rotate: 0,
