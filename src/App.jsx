@@ -132,7 +132,7 @@ function App() {
                   <div className="line w-5 h-2 bg-white"></div>
                 </div>
                 <h3 className="text-4xl -mt-[8px] leading-none text-white">
-                 <a href="https://www.rockstargames.com/"> Rockstar</a>
+                  Rockstar
                 </h3>
               </div>
             </div>
@@ -206,7 +206,7 @@ function App() {
                   autem sapiente.
                 </p>
                 <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
-                 <a href="https://www.rockstargames.com/gta-v"> Download Now</a>
+                  Download Now
                 </button>
               </div>
             </div>
