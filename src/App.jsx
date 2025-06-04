@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import "remixicon/fonts/remixicon.css";
 
+
 function App() {
   let [showContent, setShowContent] = useState(false);
   useGSAP(() => {
