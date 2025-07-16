@@ -4,10 +4,10 @@ import gsap from "gsap";
 import "remixicon/fonts/remixicon.css";
 
 function App() {
-  
   let [showContent, setShowContent] = useState(false);
   useGSAP(() => {
     const tl = gsap.timeline();
+
     tl.to(".vi-mask-group", {
       rotate: 10,
       duration: 2,
@@ -29,10 +29,10 @@ function App() {
       },
     });
   });
+
   useGSAP(() => {
     if (!showContent) return;
 
-    
     gsap.to(".main", {
       scale: 1,
       rotate: 0,
@@ -76,6 +76,7 @@ function App() {
     });
 
     const main = document.querySelector(".main");
+
     main?.addEventListener("mousemove", function (e) {
       const xMove = (e.clientX / window.innerWidth - 0.5) * 40;
       gsap.to(".main .text", {
@@ -106,7 +107,7 @@ function App() {
                   fill="white"
                   dominantBaseline="middle"
                   fontFamily="Arial Black"
-                   >
+                >
                   VI
                 </text>
               </g>
@@ -216,4 +217,5 @@ function App() {
     </>
   );
 }
+
 export default App;
