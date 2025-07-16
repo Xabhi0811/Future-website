@@ -194,9 +194,11 @@ function App() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius illum fugit
                   eligendi nesciunt quia similique velit excepturi soluta tenetur illo.
                 </p>
-                <button className="bg-yellow-500 px-10 py-6 text-black text-2xl md:text-4xl">
-                  Download Now
-                </button>
+                 <a href="https://www.rockstargames.com/VI" target="_blank" rel="noopener noreferrer">
+                 <button className="bg-yellow-500 px-10 py-6 text-black text-2xl md:text-4xl">
+             Download Now
+            </button>
+              </a>
               </div>
             </div>
           </div>
